@@ -1,0 +1,59 @@
+student      959       1  0 20:17 ?        00:00:00 /lib/systemd/systemd --user
+student      960     959  0 20:17 ?        00:00:00 (sd-pam)
+student      967     959  0 20:17 ?        00:00:00 /usr/bin/pipewire
+student      969     959  0 20:17 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+student      971       1  0 20:17 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+student      974     933  0 20:17 ?        00:00:00 cinnamon-session --session cinnamon
+student      976     959  0 20:17 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+student     1189     974  0 20:17 ?        00:00:00 csd-wacom
+student     1190     974  0 20:17 ?        00:00:00 csd-keyboard
+student     1192     974  0 20:17 ?        00:00:00 csd-background
+student     1193     974  0 20:17 ?        00:00:00 csd-xsettings
+student     1194     974  0 20:17 ?        00:00:00 csd-a11y-settings
+student     1195     974  0 20:17 ?        00:00:00 csd-media-keys
+student     1197     974  0 20:17 ?        00:00:00 csd-settings-remap
+student     1198     974  0 20:17 ?        00:00:00 csd-housekeeping
+student     1201     974  0 20:17 ?        00:00:00 csd-print-notifications
+student     1204     974  0 20:17 ?        00:00:00 csd-automount
+student     1206     974  0 20:17 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+student     1208     974  0 20:17 ?        00:00:00 csd-power
+student     1209     974  0 20:17 ?        00:00:00 csd-color
+student     1211     974  0 20:17 ?        00:00:00 csd-screensaver-proxy
+student     1216     974  0 20:17 ?        00:00:00 csd-clipboard
+student     1219     959  0 20:17 ?        00:00:00 /usr/libexec/dconf-service
+student     1230    1206  0 20:17 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+student     1238     959  0 20:17 ?        00:00:00 /usr/libexec/gvfsd
+student     1243     959  0 20:17 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+student     1255       1  0 20:17 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+student     1273       1  0 20:17 ?        00:00:00 /usr/libexec/csd-printer
+student     1278     959  0 20:17 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+student     1283     959  0 20:17 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+student     1287     959  0 20:17 ?        00:00:00 /usr/libexec/goa-daemon
+student     1304     959  0 20:17 ?        00:00:00 /usr/libexec/goa-identity-service
+student     1306     959  0 20:17 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+student     1315     959  0 20:17 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+student     1319     959  0 20:17 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+student     1336     974  0 20:17 ?        00:00:00 cinnamon-launcher
+student     1345    1336  2 20:17 ?        00:00:13 cinnamon --replace
+student     1363     974  0 20:17 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xapps/xapp-sn-watcher
+student     1379     974  0 20:17 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+student     1381     974  0 20:17 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+student     1391     974  0 20:17 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+student     1392     974  0 20:17 ?        00:00:00 nemo-desktop
+student     1393     974  0 20:17 ?        00:00:00 nm-applet
+student     1398     974  0 20:17 ?        00:00:00 cinnamon-killer-daemon
+student     1402     974  0 20:17 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+student     1444     959  0 20:17 ?        00:00:00 /usr/libexec/evolution-source-registry
+student     1465     959  0 20:17 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+student     1479     959  0 20:17 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+student     1549     959  0 20:17 ?        00:00:00 /usr/lib/bluetooth/obexd
+student     1567    1238  0 20:17 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.18 /org/gtk/gvfs/exec_spaw/0
+student     1584     959  0 20:17 ?        00:00:00 /usr/libexec/gvfsd-metadata
+student     1609       1  0 20:17 ?        00:00:00 mintUpdate
+student     1618     959  0 20:17 ?        00:00:01 /usr/libexec/gnome-terminal-server
+student     1645    1618  0 20:17 pts/0    00:00:00 bash
+student     1691     974  0 20:17 ?        00:00:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+student     1698       1  0 20:17 ?        00:00:00 mintreport-tray
+student     1708    1645  0 20:20 pts/0    00:00:00 more
+student     1716    1645  0 20:25 pts/0    00:00:00 ps -ef
+student     1717    1645  0 20:25 pts/0    00:00:00 grep --color=auto student
