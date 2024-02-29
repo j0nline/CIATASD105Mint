@@ -5,7 +5,7 @@ echo "what name for the file?"
 read FILE_NAME
 
 #check if filename ends with .sh
-if [[ $FILE_NAME == *.sh ]]; then
+if [[ $FILE_NAME == *.sh ]] || [[ $FILE_NAME == *.py ]]; then
 
 	# create file, add extesnion and shebang line
 	echo "#!/bin/bash" > "$FILE_NAME"
